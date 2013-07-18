@@ -1,4 +1,4 @@
-// all functions returns number
+// all functions returns number, so we should use xml as return type
 
 // Math.abs(num)
 external xml math-abs(scalar)

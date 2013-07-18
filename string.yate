@@ -1,0 +1,26 @@
+// we can safely return string as xml
+// because '>' -> '%3E', '<' -> %3C, '&' -> '%26'
+external xml encode-uri-component(scalar)
+
+// str.indexOf(substr) > -1
+external boolean str-contains(scalar, scalar)
+
+// str.length
+// we can safely return number as xml
+external xml str-length(scalar)
+
+// str.substr(start, length)
+external scalar str-substr(scalar, scalar, scalar)
+
+// str.substr(str.indexOf('search') + 1)
+external scalar str-substr-after(scalar, scalar)
+
+// str.substr(0, str.indexOf('search'))
+external scalar str-substr-before(scalar, scalar)
+
+// str.toUpperCase()
+external scalar str-to-upper(scalar)
+
+// str.toLowerCase()
+external scalar str-to-lower(scalar)
+

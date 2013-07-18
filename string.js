@@ -35,12 +35,12 @@
         }
     };
 
-    yrExternals['str-to-upper'] = function(str) {
-        return str.toUpperCase();
-    };
-
     yrExternals['str-to-lower'] = function(str) {
         return str.toLowerCase();
+    };
+
+    yrExternals['str-to-upper'] = function(str) {
+        return str.toUpperCase();
     };
 
 })(yr.externals);

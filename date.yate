@@ -6,6 +6,6 @@ external boolean date-is-week-current(scalar)
 
 external boolean date-is-yesterday(scalar)
 
-external xml date-now(scalar)
+external xml date-now()
 
-external xml date-today-date(scalar)
+external xml date-today-date()

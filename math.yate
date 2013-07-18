@@ -1,0 +1,10 @@
+// all functions returns number
+
+// Math.abs(num)
+external xml math-abs(scalar)
+
+// randim 6-digit number
+external xml math-random()
+
+// Math.round()
+external xml math-round(scalar)

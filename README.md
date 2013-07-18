@@ -1,4 +1,4 @@
-# Yate Stanrard Lib
+# Yate Standard Lib
 
 Batch of usefull helpers for [yate](https://github.com/pasaran/yate)
 

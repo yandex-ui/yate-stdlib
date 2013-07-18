@@ -1,9 +1,5 @@
 (function(yr) {
 
-    if (!yr.externals) {
-        yr.externals = {};
-    }
-
     var externals = yr.externals;
 
     externals['encode-uri-component'] = function(str) {

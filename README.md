@@ -1,9 +1,12 @@
-# Yate Stanrard Libs
+# Yate Stanrard Lib
 
 Batch of usefull helpers for [yate](https://github.com/pasaran/yate)
 
 ## borschik
   * borschik-link(str) - bridge to [borschik.link](https://github.com/bem/borschik)
+
+## cookie
+  * cookie(name) - bridge to [jQuery.cookie plugin](http://plugins.jquery.com/cookie/)
 
 ## date
   * date-is-today(unix-timestamp)

@@ -1,0 +1,11 @@
+// all functions returns number, so we should use xml as return type
+
+external boolean date-is-today(scalar)
+
+external boolean date-is-week-current(scalar)
+
+external boolean date-is-yesterday(scalar)
+
+external xml date-now(scalar)
+
+external xml date-today-date(scalar)

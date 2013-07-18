@@ -1,0 +1,2 @@
+// bridge to borschik.link()
+external xml borschik-link(scalar)

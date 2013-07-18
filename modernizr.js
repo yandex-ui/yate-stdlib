@@ -1,9 +1,7 @@
-(function(yr, Modernizr) {
+(function(yrExternals, Modernizr) {
 
-    var externals = yr.externals;
-
-    externals['modernizr'] = function(prop) {
+    yrExternals['modernizr'] = function(prop) {
         return Modernizr[prop] === true;
     };
 
-})(yr, Modernizr);
+})(yr.externals, Modernizr);

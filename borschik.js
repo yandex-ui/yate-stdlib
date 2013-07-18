@@ -1,7 +1,5 @@
-(function(yr, borschik) {
+(function(yrExternals, borschik) {
 
-    var externals = yr.externals;
+    yrExternals['borschik-link'] = borschik.link;
 
-    externals['borschik-link'] = borschik.link;
-
-})(yr, borschik);
+})(yr.externals, borschik);

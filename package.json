@@ -1,0 +1,20 @@
+{
+    "name": "yate-stdlib",
+    "version": "0.0.1",
+    "description": "Yate Standard Lib",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/yandex-ui/yate-stdlib.git"
+    },
+    "keywords": [
+        "yate"
+    ],
+    "author": {
+        "name": "Yandex UI",
+        "url": "https://github.com/yandex-ui"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yandex-ui/yate-stdlib/issues"
+    }
+}

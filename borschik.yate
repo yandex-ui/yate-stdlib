@@ -1,2 +1,3 @@
 // bridge to borschik.link()
-external xml borschik-link(scalar)
+// it's better to use "scalar" as return type because borschik-link is often use as "src" attribute
+external scalar borschik-link(scalar)

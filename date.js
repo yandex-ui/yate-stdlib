@@ -36,4 +36,4 @@
         return new Date().getDate();
     };
 
-})(yrExternals);
+})(yr.externals);

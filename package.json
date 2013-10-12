@@ -1,6 +1,6 @@
 {
     "name": "market-yate-stdlib",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Yate Standard Lib",
     "repository": {
         "type": "git",

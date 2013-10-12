@@ -24,3 +24,5 @@ external scalar str-to-upper(scalar)
 // str.toLowerCase()
 external scalar str-to-lower(scalar)
 
+// plural: num, nom, gen, plu
+external scalar str-plural(scalar, scalar, scalar, scalar)

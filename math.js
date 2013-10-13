@@ -12,4 +12,13 @@
         return Math.round(num);
     };
 
+    yrExternals['math-sum'] = function(nodeset) {
+        result = 0;
+        nodeset.forEach(function(item) {
+            result += Number(item.data);
+        });
+
+        return result;
+    }
+
 })(yr.externals);

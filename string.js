@@ -43,4 +43,32 @@
         return str.toUpperCase();
     };
 
+    yrExternals['str-plural'] = function(num, nom, gen, plu) {
+        var result, i;
+
+        num = num % 100;
+
+        if (num >= 11 && num <= 19) {
+            result = plu;
+        }
+        else {
+            i = num % 10;
+
+            switch (i) {
+                case 1:
+                    result = nom;
+                break;
+                case 2:
+                case 3:
+                case 4:
+                    result = gen;
+                break;
+                default:
+                    result = plu;
+            }
+        }
+
+        return result;
+    };
+
 })(yr.externals);

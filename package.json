@@ -1,10 +1,10 @@
 {
-    "name": "yate-stdlib",
-    "version": "0.0.2",
+    "name": "market-yate-stdlib",
+    "version": "0.0.6",
     "description": "Yate Standard Lib",
     "repository": {
         "type": "git",
-        "url": "git://github.com/yandex-ui/yate-stdlib.git"
+        "url": "git://github.com/andychups/yate-stdlib.git"
     },
     "keywords": [
         "yate"
@@ -15,6 +15,6 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/yandex-ui/yate-stdlib/issues"
+        "url": "https://github.com/andychups/yate-stdlib/issues"
     }
 }

@@ -15,7 +15,7 @@
     yrExternals['math-sum'] = function(nodeset) {
         result = 0;
         nodeset.forEach(function(item) {
-            result += item.data;
+            result += Number(item.data);
         });
 
         return result;

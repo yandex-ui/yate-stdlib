@@ -8,3 +8,6 @@ external xml math-random()
 
 // Math.round()
 external xml math-round(scalar)
+
+// sum
+external scalar math-sum(nodeset)

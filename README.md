@@ -19,6 +19,7 @@ Batch of usefull helpers for [yate](https://github.com/pasaran/yate)
   * math-abs(number)
   * math-random()
   * math-round(number)
+  * math-sum(nodeset)
 
 ## modernizr
   * modernizr(prop) - bridge to [Modernizr](https://github.com/Modernizr/Modernizr)

@@ -13,7 +13,7 @@
     };
 
     yrExternals['math-sum'] = function(nodeset) {
-        result = 0;
+        var result = 0;
         nodeset.forEach(function(item) {
             result += Number(item.data);
         });

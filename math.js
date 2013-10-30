@@ -14,11 +14,11 @@
 
     yrExternals['math-sum'] = function(nodeset) {
         var result = 0;
-        nodeset.forEach(function(item) {
-            result += Number(item.data);
-        });
+        for (var i = 0, l = nodeset.length; i < l; i++) {
+            result += Number(nodeset[i].data);
+        }
 
         return result;
-    }
+    };
 
 })(yr.externals);

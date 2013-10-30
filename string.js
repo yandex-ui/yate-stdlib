@@ -17,7 +17,7 @@
     };
 
     yrExternals['str-substr-after'] = function(str, search) {
-        var index = str.search(search);
+        var index = str.indexOf(search);
         if (index > -1) {
             return str.substr(index + 1);
 
@@ -27,7 +27,7 @@
     };
 
     yrExternals['str-substr-before'] = function(str, search) {
-        var index = str.search(search);
+        var index = str.indexOf(search);
         if (index > -1) {
             return str.substr(0, index);
         } else {

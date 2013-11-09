@@ -32,8 +32,4 @@
         return +new Date();
     };
 
-    yrExternals['date-today-date'] = function() {
-        return new Date().getDate();
-    };
-
 })(yr.externals);

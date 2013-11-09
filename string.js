@@ -5,7 +5,7 @@
     };
 
     yrExternals['str-contains'] = function(str, substr) {
-        return (str || '').indexOf(substr) > -1;
+        return str.indexOf(substr) > -1;
     };
 
     yrExternals['str-length'] = function(str) {

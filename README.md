@@ -2,6 +2,9 @@
 
 Batch of usefull helpers for [yate](https://github.com/pasaran/yate)
 
+## array
+  * arr-concat(arr1, arr2)
+
 ## borschik
   * borschik-link(str) - bridge to [borschik.link](https://github.com/bem/borschik)
 

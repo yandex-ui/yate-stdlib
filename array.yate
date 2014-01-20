@@ -1,0 +1,2 @@
+// arr.concat
+external nodeset arr-concat(nodeset, nodeset)

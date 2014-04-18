@@ -5,11 +5,11 @@
     };
 
     yrExternals['str-contains'] = function(str, substr) {
-        return str.indexOf(substr) > -1;
+        return String(str).indexOf(substr) > -1;
     };
 
     yrExternals['str-length'] = function(str) {
-        return str.length;
+        return String(str).length;
     };
 
     yrExternals['str-substr'] = function(str, start, length) {
@@ -17,6 +17,7 @@
     };
 
     yrExternals['str-substr-after'] = function(str, search) {
+        str = String(str);
         var index = str.indexOf(search);
         if (index > -1) {
             return str.substr(index + 1);
@@ -27,6 +28,7 @@
     };
 
     yrExternals['str-substr-before'] = function(str, search) {
+        str = String(str);
         var index = str.indexOf(search);
         if (index > -1) {
             return str.substr(0, index);
@@ -36,11 +38,11 @@
     };
 
     yrExternals['str-to-lower'] = function(str) {
-        return str.toLowerCase();
+        return String(str).toLowerCase();
     };
 
     yrExternals['str-to-upper'] = function(str) {
-        return str.toUpperCase();
+        return String(str).toUpperCase();
     };
 
 })(yr.externals);
